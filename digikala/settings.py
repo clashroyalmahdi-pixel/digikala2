@@ -16,7 +16,12 @@ SECRET_KEY = 'django-insecure-wi#jn^ait8ym4$8p@^4abr=^!c$9q^a6vmqj01)z1&)(28o2v(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://digikala2-kmwt.onrender.com']
+ALLOWED_HOSTS = [
+    'digikala2-kmwt.onrender.com',
+    'localhost',
+    '127.0.0.1',
+    'your-domain.com',
+]
 
 
 # Application definition
