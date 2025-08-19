@@ -7,7 +7,7 @@ pip install -r requirements.txt
 python manage.py migrate
 
 # ایجاد سوپر یوزر با استفاده از متغیرهای محیطی
-python manage.py createsuperuser --noinput --username=$DJANGO_SUPERUSER_USERNAME --email=$DJANGO_SUPERUSER_EMAIL
+python manage.py createsuperuser --noinput --username=$DJANGO_SUPERUSER_USERNAME --email=$DJANGO_SUPERUSER_EMAIL || true
 
 # تنظیم رمز عبور برای سوپر یوزر
 python manage.py shell -c "
